@@ -4,7 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAYNAAN HOSPITAL - Doctors</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #004080;
+        }
+
+        .doctor-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .doctor-profile {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .doctor-profile img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,14 +97,56 @@
         <h1>Our Key Doctors</h1>
         <section class="doctor-list">
             <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg" alt="Dr. Ahmed Hassan">
                 <h3>Dr. Ahmed Hassan</h3>
                 <p>Specialty: General Surgeon</p>
-                </div>
+            </div>
             <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/8392792/pexels-photo-8392792.jpeg" alt="Dr. Fatuma Ali">
                 <h3>Dr. Fatuma Ali</h3>
                 <p>Specialty: Pediatrician</p>
-                </div>
-            </section>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/8326314/pexels-photo-8326314.jpeg" alt="Dr. Mohamed Yusuf">
+                <h3>Dr. Mohamed Yusuf</h3>
+                <p>Specialty: Cardiologist</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/8851409/pexels-photo-8851409.jpeg" alt="Dr. Amina Abdullahi">
+                <h3>Dr. Amina Abdullahi</h3>
+                <p>Specialty: Dermatologist</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/8443068/pexels-photo-8443068.jpeg" alt="Dr. Ibrahim Warsame">
+                <h3>Dr. Ibrahim Warsame</h3>
+                <p>Specialty: Orthopedic Surgeon</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/8540171/pexels-photo-8540171.jpeg" alt="Dr. Layla Hassan">
+                <h3>Dr. Layla Hassan</h3>
+                <p>Specialty: Gynecologist</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/5726711/pexels-photo-5726711.jpeg" alt="Dr. Abdirahman Ali">
+                <h3>Dr. Abdirahman Ali</h3>
+                <p>Specialty: Neurologist</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/8442900/pexels-photo-8442900.jpeg" alt="Dr. Zahra Mahad">
+                <h3>Dr. Zahra Mahad</h3>
+                <p>Specialty: Internal Medicine</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/5726694/pexels-photo-5726694.jpeg" alt="Dr. Abdirahman Ali">
+                <h3>Dr. Abdirahman Ali</h3>
+                <p>Specialty: Neurologist</p>
+            </div>
+            <div class="doctor-profile">
+                <img src="https://images.pexels.com/photos/5726716/pexels-photo-5726716.jpeg" alt="Dr. Zahra Mahad">
+                <h3>Dr. Zahra Mahad</h3>
+                <p>Specialty: Internal Medicine</p>
+            </div>
+        </section>
     </main>
 
     <footer>
